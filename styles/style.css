@@ -1,0 +1,85 @@
+header{
+    background-color: green;
+    padding: 10px;
+}
+
+nav{
+    background-color: greenyellow;
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px greenyellow;
+    border-radius: 10px;
+    border: solid yellow;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav ul li :hover{
+    background-color: seagreen;
+    color: black;
+}
+
+nav ul :hover{
+    background-color: seagreen;
+}
+
+body{
+    background-color: white;
+    font-family: Verdana;
+    margin: 0;
+}
+
+h1, h2{
+    color: black;
+}
+
+footer{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    color: white;
+}
+
+.logo{
+    height: 75px;
+    width: 100px;
+}
+
+.active{
+    background-color: orange;
+}
+
+.donegal{
+    height: 25%;
+    width: 25%;
+    margin-bottom: 5px;
+    padding: 5px;
+    float: right;
+}
+.indexPic{
+    height: 250px;
+    width: 25%;
+    margin-bottom: 5px;
+    padding: 5px;
+    float: right;
+}
